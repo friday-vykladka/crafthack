@@ -4,17 +4,27 @@
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
     <title>Simple Polygon</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<div id="map"></div>
-
+<div class="admin-ui">
+    <div class="top">
+        top
+    </div>
+    <div class="bottom">
+        <div class="sidebar">sidebar</div>
+        <div class="content">
+            <div id="map"></div>
+        </div>
+    </div>
+</div>
 
 <script src="js/main.js"></script>
 <script>
   function mapsCallback() {
-    console.log('fuck');
+    // asynnc defer from below requires an inline js function to run after google api init
+    console.log("google api initialized");
     main();
   }
 </script>

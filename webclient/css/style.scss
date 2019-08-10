@@ -1,0 +1,43 @@
+
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+  body {
+    height: 100%;
+
+    .admin-ui {
+
+      .top {
+        height: 100px;
+        width: 100%;
+        background-color: green;
+      }
+
+      .bottom {
+        width: 100%;
+        background-color: blue;
+        display: flex;
+        flex-grow: 1;
+
+        .sidebar {
+          width: 200px;
+          background-color: red;
+        }
+
+        .content {
+
+
+          #map {
+
+            height: 650px;
+            width: 1000px;
+          }
+        }
+      }
+    }
+
+
+  }
+}
